@@ -19,17 +19,13 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-family: inherit;
 	vertical-align: baseline;
 		}
-			
-html { 
-	min-width: 770px; 
-	 } 
+			 
 	 
 body	{	
 	margin: 0 auto;
 	max-width: 2000px;
 	padding: 0;
 	border: 0;	
-	font-family: serif;
 	}
 
 .page	{
@@ -38,8 +34,8 @@ body	{
 		}
 		
 a {
-	color: #399c3e;
-	text-decoration: none;
+	color: #fff;
+	text-decoration: underline;
 	padding-bottom: 1px;
 	}
 	
@@ -80,10 +76,10 @@ img {
 	clear: left;
 	margin-left: 100px;
 	font-size: 1em;
-	line-height: 1.4em;
+	line-height: 1.8em;
 	font-family: "lato", sans-serif;
 	text-align: left;
-	width: 380px;
+	width: 420px;
 }
 
 #contact	{
@@ -103,6 +99,7 @@ img {
 	
 #contact a	{
 	color: black;
+	text-decoration: none;
 	}
 	
 #contact a:hover	{
@@ -180,9 +177,57 @@ footer {
 
 #skills	{
 	float: left;
-	padding-left: 100px;
+	padding: 50px 0 50px 100px;
+	
 	}
 
+
+@media screen and (max-width: 980px) {
+
+h1	{
+	margin-left: 50px;
+	}
+
+.desc	{
+	margin-left: 50px;
+}
+
+.main	{
+	margin: 10px auto 0;
+	padding-top: 10px;
+	clear: both;
+	}
+	
+.main h2	{
+	text-align: center;
+	font: 400 42px/42px 'lato';
+	text-transform: uppercase;
+	}
+
+#recent	{
+	float: left;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	}
+	
+#recent p	{
+	text-align: left;
+	margin-top: 30px;
+	padding: 0;
+	font-family: "lato", sans-serif;
+	line-height: 1.3em;
+	width: 450px;
+	}
+
+#recent p:nth-of-type(odd)	{
+	margin-top: 60px;
+	}	
+	
+#recent img	{
+	float: left;
+	margin: 30px 30px 10px 5px;
+	box-shadow: 5px 5px 20px #000;
+	}
 
 @media screen and (max-width: 860px) {
 
@@ -190,5 +235,165 @@ footer {
 	position: relative;
 	}
 
+@media screen and (max-width: 750px) {
 
-}}
+#banner	{
+	height: 445px;
+	}
+
+#contact	{
+	width: 300px;
+	position: relative;
+	right: 385px;
+	top: 245px;
+	text-align: left;
+	font: 100 32px/32px 'lato';
+	line-height: 1.1em;
+	}
+	
+@media screen and (max-width: 510px) {	
+
+#recent	{
+	float: left;
+	padding-bottom: 20px;
+	padding-left: 100px;
+	width: 310px;
+	}
+	
+#recent p	{
+	text-align: left;
+	margin-top: 10px;
+	padding-right: 5px;
+	font-family: "lato", sans-serif;
+	font-size: 1em;
+	line-height: 1.3em;
+	width: 300px;
+	}	
+	
+#recent img	{
+	float: left;
+	margin: 30px 50px 30px 40px;
+	box-shadow: 5px 5px 20px #000;
+	}
+
+
+@media screen and (max-width: 320px) {
+
+body	{	
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	width: 319px;	
+	}
+
+		
+a {
+	color: #fff;
+	text-decoration: underline;
+	padding-bottom: 1px;
+	}
+	
+a:hover {
+	opacity: .8;
+	}
+
+#banner	{
+	height: 460px;
+	width: 105%;
+	background-color: #ccc;
+	margin: 0;
+	padding: 0;
+	}		
+
+h1	{
+	float: left;
+	width: 320px;
+	margin: 10px 0 0 10px;
+	font-size: 2.5em;
+	font-family: 'gravitas one';
+    text-transform: uppercase;
+	text-align: left;
+}
+
+h1:hover	{
+	color: #399C3e;
+	}
+
+.desc	{
+	float: left;
+	clear: left;
+	margin-left: 10px;
+	font-size: 1em;
+	line-height: 1.2em;
+	font-family: "lato", sans-serif;
+	text-align: left;
+	width: 300px;
+	}
+
+#contact	{
+	width: 300px;
+	position: absolute;
+	left: 10px;
+	top: 225px; 
+	margin: 0;
+	text-align: left;
+	font: 100 32px/32px 'lato';
+	line-height: 1.4em;		
+	}
+
+.main h2	{
+	text-align: left;
+	font: 400 40px/40px 'lato';
+	}
+
+#recent	{
+	float: left;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	width: 310px;
+	}
+	
+#recent p	{
+	text-align: left;
+	margin-top: 10px;
+	padding-right: 5px;
+	font-family: "lato", sans-serif;
+	font-size: .9em;
+	line-height: 1.3em;
+	width: 300px;
+	}	
+	
+#recent img	{
+	float: left;
+	margin: 30px 50px 30px 40px;
+	box-shadow: 5px 5px 20px #000;
+	}
+
+#skills	{
+	width: 210px;
+	clear: both;
+	float: left;
+	margin-bottom: 20px;
+	}
+	
+#skills h2	{
+	position: relative;
+	right: 10px;
+	}
+
+#skills ul	{
+	padding: 0;
+	list-style: none;
+	position: relative;
+	right: 40px; 
+	}
+
+#skills	ul li {
+	text-align: left;
+	}
+
+footer {
+	width: 99%;
+	}
+
+}}}}}}
