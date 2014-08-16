@@ -64,7 +64,7 @@ h1	{
 }
 
 h1:hover	{
-	color: blue;
+	color: #399C3e;
 	}
 
 img {
@@ -246,6 +246,7 @@ h1	{
 	position: relative;
 	right: 385px;
 	top: 245px;
+	margin-top: 20px;
 	text-align: left;
 	font: 100 32px/32px 'lato';
 	line-height: 1.1em;
