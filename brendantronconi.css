@@ -245,7 +245,7 @@ h1	{
 @media screen and (max-width: 750px) {
 
 #banner	{
-	height: 445px;
+	height: 470px;
 	}
 
 #contact	{
@@ -255,8 +255,16 @@ h1	{
 	top: 260px;
 	text-align: left;
 	font: 100 32px/32px 'lato';
-	line-height: 1.1em;
+	line-height: 1.3em;
 	color: #399c3e;
+	}
+	
+#contact i {
+	color: black;
+	}
+
+#contact a {
+	color: black;
 	}
 	
 @media screen and (max-width: 510px) {	
