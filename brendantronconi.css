@@ -91,14 +91,21 @@ img {
 	text-align: right;
 	font: 100 42px/42px 'lato';
 	line-height: 1.1em;
+	color: #ccc;
 	}
+	
 	
 #contact i	{
 	padding: 10px;
+	color: black;
+	}
+
+#contact i:hover	{
+	color: #399c3e;
 	}
 	
 #contact a	{
-	color: black;
+	color: #ccc;
 	text-decoration: none;
 	}
 	
@@ -249,6 +256,7 @@ h1	{
 	text-align: left;
 	font: 100 32px/32px 'lato';
 	line-height: 1.1em;
+	color: #399c3e;
 	}
 	
 @media screen and (max-width: 510px) {	
