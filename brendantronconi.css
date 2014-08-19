@@ -23,7 +23,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	 
 body	{	
 	margin: 0 auto;
-	max-width: 2000px;
+	max-width: 1500px;
 	padding: 0;
 	border: 0;	
 	}
@@ -53,14 +53,11 @@ a:hover {
 h1	{
 	float: left;
 	width: 420px;
-	margin-top: 20px;
-	margin-left: 100px;
 	font-size: 3.6em;
 	font-family: 'gravitas one';
     text-transform: uppercase;
 	text-align: left;
 	color: black;
-
 }
 
 h1:hover	{
@@ -75,24 +72,26 @@ img {
 	max-width: 100%;
 	}
 
-.desc	{
+#desc	{
 	float: left;
 	clear: left;
 	margin-left: 100px;
-	font-size: 1em;
-	line-height: 1.8em;
-	font-family: "lato", sans-serif;
 	text-align: left;
 	width: 420px;
 }
 
+#desc p {
+	font-size: 1em;
+	line-height: 1.8em;
+	font-family: "lato", sans-serif;
+	}
+
 #contact	{
 	width: 300px;
-	position: absolute;
-	right: 100px;
-	top: 26px;
-	margin-left: 520px;
+	clear: right;
+	float: right;
 	text-align: right;
+	margin-right: 50px;
 	font: 100 42px/42px 'lato';
 	line-height: 1.1em;
 	color: #ccc;
@@ -197,9 +196,6 @@ footer {
 
 @media screen and (max-width: 980px) {
 
-h1	{
-	margin-left: 50px;
-	}
 
 .desc	{
 	margin-left: 50px;
@@ -242,27 +238,17 @@ h1	{
 	box-shadow: 5px 5px 20px #000;
 	}
 
-@media screen and (max-width: 860px) {
-
-#contact	{
-	position: relative;
-	}
-
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 895px) {
 
 #banner	{
 	height: 470px;
 	}
 
 #contact	{
-	width: 300px;
-	position: relative;
-	right: 385px;
-	top: 260px;
+	position: absolute;
+	left: 95px;
+	top: 230px;
 	text-align: left;
-	font: 100 32px/32px 'lato';
-	line-height: 1.3em;
-	color: #399c3e;
 	}
 	
 #contact i {
