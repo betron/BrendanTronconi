@@ -75,7 +75,7 @@ img {
 #desc	{
 	float: left;
 	clear: left;
-	margin-left: 100px;
+	margin-left: 50px;
 	text-align: left;
 	width: 420px;
 }
@@ -131,7 +131,7 @@ img {
 #recent	{
 	float: left;
 	padding-bottom: 20px;
-	padding-left: 100px;
+	padding-left: 50px;
 	}
 
 
@@ -142,7 +142,7 @@ img {
 	padding: 0;
 	font-family: "lato", sans-serif;
 	line-height: 1.3em;
-	width: 610px;
+	width: 600px;
 	}
 
 #recent p:nth-of-type(odd)	{
@@ -160,7 +160,7 @@ img {
 	}
 	
 #skills	{
-	width: 470px;
+	width: 450px;
 	float: right;
 	}
 	
