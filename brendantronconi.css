@@ -221,6 +221,14 @@ footer hr:nth-of-type(2) {
 
 @media screen and (max-width: 980px) {
 
+#banner hr {
+	background-color: #000;
+	width: 99.8%;
+	height: 5px;
+	float: left;
+	margin-top: 231px;
+	}
+
 
 .desc	{
 	margin-left: 50px;
