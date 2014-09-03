@@ -34,7 +34,7 @@ body	{
 		}
 		
 a {
-	color: #fff;
+	color: #000;
 	text-decoration: underline;
 	padding-bottom: 1px;
 	}
@@ -186,11 +186,11 @@ img {
 
 footer {
 	clear: both;
-	background-color:  #000;
-	color: #fff;
-	font: 100 16px/16px "lato";
+	background-color:  #ccc;
+	color: #000;
+	font: 400 16px/16px "lato";
 	text-align: center;
-	padding: .6em 0;
+	padding: 0;
 	}
 	
 footer hr {
