@@ -53,9 +53,9 @@ a:hover {
 #banner hr {
 	background-color: #000;
 	width: 99.9%;
-	height: 3px;
+	height: 2px;
 	float: left;
-	margin-top: 45px;
+	margin-top: 46px;
 	}
 
 h1	{
@@ -213,7 +213,7 @@ footer {
 footer hr {
 	background-color: #000;
 	width: 99.8%;
-	height: 3px;
+	height: 2px;
 	position: relative;
 	top: 0px;
 	}
@@ -221,9 +221,9 @@ footer hr {
 footer hr:nth-of-type(2) {
 	background-color: #000;
 	width: 99.8%;
-	height: 3px;
+	height: 2px;
 	position: relative;
-	top: 3px;
+	top: 2px;
 	margin: 10px 0 0;
 	padding: 0;
 	}
