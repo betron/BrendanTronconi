@@ -48,7 +48,11 @@ a:hover {
 	background-color: #ccc;
 	margin: 0;
 	padding: 0;
-	}		
+	}	
+	
+#banner a {
+	text-decoration: none;
+	}	
 
 #banner hr {
 	background-color: #000;
