@@ -238,6 +238,21 @@ dd {
 	float: right;
 	
 	}
+
+#footer button {
+	float: left;
+	color: #6fa44f;
+	margin: 10px;
+	text-transform: uppercase;
+	font-weight: 800;
+	}
+
+#footer button a {
+
+	text-decoration: none;
+
+	}
+	
 /*********************** 
 these styles will override
 the mobile-first styles for

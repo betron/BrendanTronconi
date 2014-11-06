@@ -164,6 +164,20 @@ img {
 .main a {
 	color: #399c3e;
 	} 
+	
+.main button {
+	float: left;
+	color: #6fa44f;
+	margin: 0 auto 10px;
+	text-transform: uppercase;
+	font-weight: 800;
+	}
+
+.main button a {
+
+	text-decoration: none;
+
+	}
 
 #recent	{
 	float: left;
