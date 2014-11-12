@@ -2,7 +2,7 @@
 
 /* Remove browser styles*/
 	
-	html, body, div, span, applet, object, iframe,
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, font, img, ins, kbd, q, s, samp,
@@ -30,7 +30,6 @@ body	{
 
 .page	{
 	margin: 0 auto;
-	width: 80%; 
 		}
 		
 a {
@@ -86,10 +85,9 @@ img {
 
 #desc	{
 	float: left;
-	clear: left;
-	margin-left: 40px;
+	margin-left: 1%;
 	text-align: left;
-	width: 420px;
+
 	}
 
 #desc p {
@@ -254,12 +252,11 @@ footer hr:nth-of-type(2) {
 
 
 .desc	{
-	margin-left: 50px;
-	font-size: 2em;
+	
 	}
 
 h1 {
-	font-size: 6em;
+
 	}
 
 #contact	{
@@ -314,7 +311,7 @@ h1 {
  /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
  
  
-@media screen and (max-width:340px) {
+@media screen and (max-width:336px) {
 
 body	{	
 	margin: 0 auto;
@@ -334,11 +331,11 @@ a:hover {
 	}
 
 #banner	{
-	height: 530px;
+	height: 585px;
 	width: 100%;
 	background-color: #ccc;
 	margin: 0;
-	padding: 0;
+	padding: 5px;
 	}		
 	
 #banner hr {
@@ -367,10 +364,9 @@ h1:hover	{
 
 
 #contact	{
-	width: 100%;
 	position: absolute;
 	left: 30px;
-	top: 305px; 
+	top: 360px; 
 	margin: 0;
 	text-align: left;
 	font: 100 32px/32px 'lato';
