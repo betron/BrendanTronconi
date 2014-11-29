@@ -96,6 +96,10 @@ img {
 	font-family: "lato", sans-serif;
 	margin-left: 2px;
 	}
+	
+#desc span {
+	text-decoration: line-through;
+	}
 
 #contact	{
 	width: 300px;
