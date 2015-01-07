@@ -43,7 +43,7 @@ a:hover {
 	}
 
 #banner	{
-	height: 280px;
+	height: 272px;
 	background-color: #ccc;
 	margin: 0;
 	padding: 0;
@@ -56,23 +56,22 @@ a:hover {
 #banner hr {
 	background-color: #000;
 	width: 99.9%;
-	height: 2px;
+	height: 4px;
 	float: left;
 	margin-top: 46px;
 	}
 
 h1	{
 	float: left;
-	width: 420px;
-	font-size: 3.6em;
+	width: 390px;
+	font-size: 2.6em;
 	font-family: 'gravitas one';
-    text-transform: uppercase;
 	text-align: left;
 	color: black;
 	}
 
 h1:hover	{
-	color: #7c9866;
+	color: #3A7230;
 	}
 	
 h2	{
@@ -85,9 +84,8 @@ img {
 
 #desc	{
 	float: left;
-	margin-left: 1%;
+	margin-left: 12%;
 	text-align: left;
-
 	}
 
 #desc p {
@@ -106,7 +104,7 @@ img {
 	clear: right;
 	float: right;
 	text-align: right;
-	margin-right: 50px;
+	margin-right: 14%;
 	font: 100 42px/42px 'lato';
 	line-height: 1.3em;
 	color: #ccc;
@@ -119,7 +117,7 @@ img {
 	}
 
 #contact i:hover	{
-	color: #7c9866;
+	color: #3A7230;
 	}
 	
 #contact a	{
@@ -128,7 +126,7 @@ img {
 	}
 	
 #contact a:hover	{
-	color: #7c9866;
+	color: #3A7230;
 	}
 	
 
@@ -177,9 +175,7 @@ img {
 	}
 
 .main button a {
-
 	text-decoration: none;
-
 	}
 
 #recent	{
@@ -226,17 +222,17 @@ img {
 		
 footer {
 	clear: both;
-	background-color:  #ccc;
+	background-color: #3A7230;
 	color: #000;
 	font: 400 16px/16px "lato";
 	text-align: center;
-	padding: 0;
+	padding: 5px;
 	}
 	
 footer hr {
 	background-color: #000;
 	width: 99.8%;
-	height: 2px;
+	height: 4px;
 	position: relative;
 	top: 0px;
 	}
@@ -244,7 +240,7 @@ footer hr {
 footer hr:nth-of-type(2) {
 	background-color: #000;
 	width: 99.8%;
-	height: 2px;
+	height: 4px;
 	position: relative;
 	top: 2px;
 	margin: 10px 0 0;
