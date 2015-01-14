@@ -109,8 +109,7 @@ img {
 	font: 100 42px/42px 'lato';
 	line-height: 1.3em;
 	color: #ccc;
-	}
-	
+	}	
 	
 #contact i	{
 	padding: 10px;
@@ -144,7 +143,7 @@ img {
 	}
 	
 .main img {
-	margin: 30px auto 30px 0;
+	margin: 30px auto 30px 10%;
 	padding: 0;
 	box-shadow: 0px 5px 10px #000;
 	}
