@@ -168,9 +168,13 @@ footer ul {
 	
 footer ul li {
 	display: inline;
-	font-size: 3em;
+	font-size: 1em;
 	margin: 0 10% 5px 0;
 	}
+
+footer ul i {
+	font-size: 3em;
+}
 
 footer a {
 	color: #3A7230;
@@ -230,9 +234,13 @@ footer ul {
 	}
 	
 footer ul li {
-	font-size: 3em;
-	margin: 20px 15% 5px 0;
+	font-size: 1em;
+	margin: 20px 10% 5px 0;
 	}
+
+footer ul i {
+	font-size: 3em;
+}
 	
 footer p {
 	font-size: 1.4em;
@@ -250,10 +258,14 @@ footer p {
 	}
 	
 footer ul li {
-	font-size: 3em;
+	font-size: 1em;
 	margin: 0 5% 5px 5%;
 	}
-	
+
+footer ul i {
+	font-size: 3em;
+}
+
 footer p {
 	font-size: 1.4em;
 
