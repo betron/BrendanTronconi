@@ -82,7 +82,7 @@ img {
 	}
 
 #desc p {
-	font-size: 1.5em;
+	font-size: 1.3em;
 	line-height: 1.5em;
 	font-family: "lato", sans-serif;
 	margin-top: 30px;
@@ -208,7 +208,7 @@ footer p a {
 
 
 #banner	{
-	height: 560px;
+	height: 760px;
 	}
 
 h1	{
@@ -218,12 +218,12 @@ h1	{
 
 #desc	{
 
-	width: 500px;
+	width: 600px;
 
 	}
 
 #desc p {
-		font-size: 2.4em;
+		font-size: 2.2em;
 		
 	}
 
@@ -263,6 +263,8 @@ footer p {
 	@media all and (min-width: 890px), (orientation: landscape) {
 #banner	{
 
+	height: 760px;
+
 	}
 	
 footer ul li {
@@ -287,7 +289,7 @@ footer p {
 @media all and (min-width: 1100px){
 
 #banner	{
-	height: 472px;
+	height: 672px;
 	}
  
 h1	{
