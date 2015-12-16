@@ -77,7 +77,7 @@ img {
 
 #desc	{
 	float: left;
-	margin-left: 25%;
+	margin-left: 8%;
 	text-align: center;
 	}
 
@@ -199,6 +199,73 @@ footer p a {
 	}
 
 
+@media all and (min-width: 400px) {
+
+#banner	{
+	height: 960px;
+	}
+
+h1	{
+	font-size: 3em;
+
+	}
+
+#desc	{
+
+	width: 350px;
+
+	}
+
+#desc p {
+	font-size: 2em;
+		
+	}
+
+#recent li {
+	margin:0 0 0 1%;
+	padding: 10px 0 100px;
+	text-align: none;
+	width: 400px;
+	float: left;
+	}
+	
+#recent img	{
+	margin: 5px;
+	padding: 0;
+	box-shadow: 0px 5px 10px #000;
+	}
+
+#recent p {
+	font-size: 1.7em;
+	}	
+
+footer {
+	height: 330px;
+}
+footer ul {
+	margin:0;
+	padding-top: 20px;
+	}
+	
+footer ul li {
+	display: block;
+	float: left;
+	font-size: 1em;
+	margin: 20px 0 5px 20px;
+	padding-left: 8%;
+	padding-right: 6%;
+	}
+
+footer ul i {
+	font-size: 3em;
+
+}
+	
+footer p {
+	font-size: 1.4em;
+	padding-bottom: 20px;
+	padding-top: 90px;
+}
 
 	
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -218,7 +285,7 @@ h1	{
 
 #desc	{
 
-	width: 600px;
+	width: 500px;
 
 	}
 
