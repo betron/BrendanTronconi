@@ -284,7 +284,7 @@ h1	{
 
 	width: 500px;
 	height: 400px;
-
+	margin-left: 27%;
 	}
 
 #desc p {
@@ -329,8 +329,11 @@ footer p {
 
 
 	
-	@media all and (min-width: 890px), (orientation: landscape) {
+	@media all and (min-width: 890px) {
 
+#desc	{
+	margin-left: 27%;
+	}
 	
 footer ul li {
 	font-size: 1em;
