@@ -4,14 +4,13 @@
 
 <html dir="ltr" lang="en-US">
 <head>
-<link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Gravitas+One' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Lato:100,200,400,800' rel='stylesheet' type='text/css'>
 
 <title>BrendanTronconi.com</title>
 
 <meta charset="UTF-8">
-<meta name="description" content="Brendan Tronconi, Web Design, Front-End Development, Brooklyn, New York.">
+<meta name="description" content="Brendan Tronconi, UX Design, Front-End Development, Brooklyn, New York.">
 	<meta name="author" content="Brendan Tronconi">
 	<meta name="viewport" content="width=960" />
 	<link rel="shortcut icon" href="http://brendantronconi.com/favicon.ico">
@@ -19,6 +18,9 @@
     <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
 	<link rel="icon" type="image/x-icon" href="images/favicon.png">
 	
+	<link rel="stylesheet" href="bootstrap.min.css">
+
+
 <style type="text/css" media="all">@import"style.css";</style>
 
 <script ="JavaScript" type="text/javascript" src="js/jquery.js"></script>
@@ -41,51 +43,65 @@ document.createElement( "picture" );
 
 </head>
 <body>
-<div id="page">
+   <div class="container-fluid">
+      <div class="header" "container-fluid">
+      	  <a class="navbar-brand">
+      	  	Brendan Tronconi
+      	  </a>
+      	<nav>
+          <ul class="nav pull-right">
+            <li role="presentation" class="active"><a href="#recent">Work</a></li>
+            <li role="presentation"><a href="http://brendantronconi.com/resume.html">Resumé</a></li>
+            <li role="presentation"><a href="mailto:design@brendantronconi.com">Contact</a></li>
+          </ul>
+        </nav>
 			
-		<div id="banner">	
 		
-		<div id="desc">
+		
+		<div id="desc" class= "container-fluid">
 			<h1>Welcome to my website.</h1>
-			<p>I make things on the internet. I do this with HTML, CSS and Javascript. You can see some of my work below. Thanks for stopping by.</p>
+			<p>I am a front end web developer and designer with a focus on modular HTML5, CSS3, and Javascript. I write modern and well organized code that enhances performance and user experience. You can see some of my work below. Thanks for stopping by.</p>
 		</div>   <!-- /end .desc-->
 	
 		
-		</div> <!-- /end .banner-->
+	</div><!-- /end .header -->
 				
 			
-				<div id="recent">
+	<div id="recent" class="container-fluid">
 				
-					<ul>					
-					<li><a href="/sites.html"><img src="images/foxSmall.png" sizes="(min-width: 20em) 40vw, 80vw"
-						srcset="images/foxSmall.png 175w, images/foxLarge.png 280w" alt="[Jonathan Fox Poetry]">  </a>
-					<p><a href="/sites.html">Web Sites</a><br>
-					    <span>HTML, CSS, Javascript, Wordpress</span></li>
-					
-     				<li><a href="/games.html"><img src="images/WarIsAForceBig.png" alt="[Plane Game]">  </a>
-					<p><a href="/games.html">Games</a><br> 
-					    <span>Javascript</span>
-					
-                    
-                    </li>
-					</ul>
-									
-				</div> <!-- end recent --> 			
+			<article>				
+				<img src="images/foxSmall.png"alt="[Jonathan Fox Poetry]" class= "img-responsive">
+				<p><a href="http://www.jonathanfoxpoetry.com">Jonathan Fox Poetry</a><br>
+			    <span>This is a Wordpress site I built for a poet. It showcases some of his recent work.</span>
+			</article>
 
-		
+			<article>	
+				<img src="images/HPLTitleScreen.png"alt="[HOT PINK LAZERS]" class= "img-responsive">
+				<p><a href="http://betron.github.io/mlpo/hotpinklazers/index.html">Hot Pink Lazers</a><br>
+			    <span>This is a version of the game 'Asteroids'. You can play it with a keyboard or with a controller.</span>
+			</article>
 
-		<footer>	
-		
-		<ul>
-			<li><a href="http://codepen.io/betron/"><i class="fa fa-codepen"></i><br>Codepen</a></li>
-			<li><a href="https://github.com/betron"><i class="fa fa-github"></i><br>GitHub</a></li>
-			<li><a href="mailto:Design@BrendanTronconi.com"><i class="fa fa-envelope"></i><br> Contact</a></li>
-		</ul>		
-		
-			<p>A simple adaptive site coded in HTML and CSS from scratch.  
-			
-		</footer>
+			<article>	
+				<img src="images/WarIsAForceTitleBig.png" alt="[War Is A Force That Gives Us Meaning]" class= "img-responsive">
+				<p><a href="http://brendantronconi.com/WarIsAForce.html">War Is A Force That Gives Us Meaning</a><br> 
+			    <span>This is a simple shooting game built using Javascript. It's playable on a touch screen or with a keyboard.</span>
+			</article>
+	
+						
+	</div> <!-- end recent --> 			
 
-</div> <!-- /end #page -->
+<footer>
+  <div class="flex-container theme-showcase">
+   
+    
+    <div class="copy">
+      <div><a href="http://codepen.io/betron/" target="_blank">Codepen<i class="fa fa-codepen"></i></a></div>
+      <div><a href="https://github.com/betron" target="_blank">Github<i class="fa fa-github"></i></a></div>
+      <div><a href="http://www.linkedin.com/in/brendantronconi" target="_blank">LinkedIn<i class="fa fa-linkedin"></i></a></div>
+    
+  </div>
+</footer>
+
+</div> <!-- /end #container -->
 </body>
 </html>
