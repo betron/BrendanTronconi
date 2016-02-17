@@ -40,6 +40,13 @@ a {
 a:hover {
 	text-decoration: none;
 	}
+
+a:visited {
+
+	color: #3A7230;
+	opacity: .8;
+	text-decoration: none;
+}
 	
 
 .header	{
