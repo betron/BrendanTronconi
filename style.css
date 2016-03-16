@@ -40,21 +40,26 @@ a:hover {
 	text-decoration: none;
 	}
 
+
 a:visited {
 
 	color: #3A7230;
 	opacity: .8;
 	text-decoration: none;
 }
-	
+
+
+
+.container-fluid {
+	padding: 0;
+}
 
 .header	{
 	height: 700px;
-	width: 100%;
 	max-width: 1100px;
-	margin: 0 auto;
 	background-color: #f4f4f4;
 	font-family: 'lato';
+	margin: 0 auto;
 	}	
 
 h1	{
@@ -70,6 +75,10 @@ h1	{
 	
 h2	{
 	font-family: 'lato';
+	font-size: 30px;
+	line-height: 1.5em;
+	color: #f4f4f4;
+	margin: 40px;
 	}
 
 img {
@@ -109,15 +118,11 @@ nav ul li a {
 	color: #3A7230;
 }
 
-.container-fluid {
-	padding: 0;
-}
-
 #desc	{
 	float: left;
 	margin-left: 20%;
 	text-align: center;
-	max-width: 39rem;
+	max-width: 37rem;
 
 	}
 
@@ -129,15 +134,25 @@ nav ul li a {
 	}
 
 #recent	{
-	height: 1600px;
+	height: 4500px;
 	background-color: #2D2E34;
 	}
 	
 #recent article {
-	margin: 30px 0;
+	margin: 50px 0 0 50px;
 	float: left;
 	text-align: center;
 	}
+
+.cp {
+	width: 80%;
+	margin: 50px;
+	}
+
+#recent .wa {
+	width: 700px;
+	margin-left: 19%;
+}
 	
 #recent img	{
 	margin: 20px;
@@ -167,7 +182,9 @@ nav ul li a {
 
 footer {
 	font-family:'lato';
-	
+	max-width: 1100px;
+	margin: 0 auto;
+
 }
 
 footer .copy {
@@ -176,15 +193,30 @@ footer .copy {
     box-sizing: border-box;
 }
 
-footer a{
+footer a:link{
 	color: black;
 	text-decoration: none;
+}
+
+footer a:visited {
+	color: #000;
+	opacity: .8;
+	text-decoration: none;
+
 }
 
 footer a:hover {
 	color: #000;
 	text-decoration: none;
 	transition-duration: 1s;
+}
+
+
+footer a:active{
+
+	color: #000;
+	opacity: .8;
+	text-decoration: none;
 }
 
 footer .copy div {
@@ -221,7 +253,7 @@ footer .copy div {
 
 .header	{
 	font-size: 1.3em;
-	height: 500px;
+	height: 592px;
 	}
 
 .navbar-brand {
@@ -236,13 +268,17 @@ footer .copy div {
 	font-size: 1.3em;
 	}
 
+#recent {
+	height: 3600px;
+}
+
 #recent p	{
 	font-size: 1.3em;
 	max-width: 900px;
 	}
 
 #recent article {
-	margin: 30px 0 30px 8%;
+	margin: 50px 0 0 50px;
 }
 
 footer .copy div {
@@ -256,5 +292,4 @@ footer .copy {
 
  }
 
- 
- 
+
