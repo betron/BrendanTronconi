@@ -46,12 +46,8 @@
 <div class="full-width-rev">
 	<div class="wrapper container">
 		<section class="main main--wider">
-			<p class="filler">
 			
 
-		</section>
-	</div>
-</div>
 
 <div class="full-width">
 	<div class="wrapper container">
