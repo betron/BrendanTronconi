@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 
@@ -79,24 +78,9 @@
 
 
 
-<!--div class="full-width">
-	<div class="wrapper container">
-		<section class="main main--wider">
-			<h2 class="descriptor">Things I've done</h2>
-
-			<p>I made this re-creation of the Atari classic 'Asteroids' in Javascript.</p>
-			<img src=" ../images/HPLTitleScreenLarge.png" alt="logo">
-
-			<p> I made this touch friendly game in Javascript.</p>
-			<img src=" ../images/WarIsAForceTitleBig.png" alt="logo">
-
-			<p> I built this site for Jonathan Fox.</p>
-			<img src=" ../images/foxSmall.png" alt="logo">
 
 
-		</section>
-	</div>
-</div-->
+
 
 
 <footer class="full-width-rev">
