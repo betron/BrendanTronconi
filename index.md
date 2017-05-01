@@ -16,16 +16,6 @@
 <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, user-scalable=1"/>
 
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-34951739-3', 'brendantronconi.com');
-  ga('send', 'pageview');
-
-</script>
 </head>
 <body>
 
@@ -35,8 +25,8 @@
 <div class="full-width">
 	<div class="wrapper container">
 		<section class="main main--wider">
-			<h1 class="descriptor">Brendan Tronconi</h1>
-			<p>Here is where you can find more information about things I do and things I have done.<br> If you would like to get in touch with me, you can send an e-mail to brendantronconi@gmail.com</p>
+			
+			<p class="descriptor">Here is where you can find more information about things I do and things I have done.<br> If you would like to get in touch with me, you can send an e-mail to brendantronconi@gmail.com</p>
 
 		</section>
 	</div>
