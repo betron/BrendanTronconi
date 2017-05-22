@@ -26,7 +26,7 @@
 	<div class="wrapper container">
 		<section class="main main--wider">
 			
-			<p class="descriptor">Here is where you can find more information about things I do and things I have done.<br> If you would like to get in touch with me, you can send an e-mail to brendantronconi@gmail.com</p>
+			<p class="descriptor">Front End Developer</p>
 
 		</section>
 	</div>
@@ -45,8 +45,6 @@
 			<h2 class="descriptor">Things I do</h2>
 			
 			<p>I write HTML, CSS and Javascript. You can see some of my work on my <a href="https://github.com/betron">Github</a> and <a href="http://codepen.io/betron/">Codepen</a> accounts.</p>
-			<p>I'm a worker/owner with the dog walking and pet care coop <a href="https://www.trustyamigos.coop">Trusty Amigos.</a></p>
-			<p>I read way too much. Here are some articles I recommend from my <a href="http://getpocket.com/@b31pyT25Ae17fda442g3553g25d5A780g4fA41v487jsQyZgn9c28f1bUp6YI0l1">Pocket</a> account.</p>
  
 			
 		</section>
@@ -72,7 +70,6 @@
 <footer class="full-width-rev">
 	<div class="wrapper container">
 		<section class="main main--wider">
-			<p>Have a good one.
 			
 
 		</section>
