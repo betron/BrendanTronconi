@@ -8,7 +8,7 @@
 <meta name="author" content="Brendan Tronconi">
 
 <meta name="language" content="en"/>
-<meta name="description" content="Freelance Front-End Web Developer, Brooklyn, New York, N.Y."/>
+<meta name="description" content="Front End Web Developer, Brooklyn, New York, N.Y."/>
 
 
 <link rel="shortcut icon" href="http://brendantronconi.com/favicon.ico">
@@ -33,16 +33,11 @@
 </div>
 
 
-<div class="full-width-rev">
-	<div class="wrapper container">
-		<section class="main main--wider">
-			
 
 
 <div class="full-width">
 	<div class="wrapper container">
 		<section class="main main--wider">
-			<h2 class="descriptor">Things I do</h2>
 			
 			<p>I write HTML, CSS and Javascript. You can see some of my work on my <a href="https://github.com/betron">Github</a> and <a href="http://codepen.io/betron/">Codepen</a> accounts.</p>
  
@@ -50,32 +45,6 @@
 		</section>
 	</div>
 </div>
-
-<div class="full-width-rev">
-	<div class="wrapper container">
-		<section class="main main--wider">
-			
-
-		</section>
-	</div>
-</div>
-
-
-
-
-
-
-
-
-<footer class="full-width-rev">
-	<div class="wrapper container">
-		<section class="main main--wider">
-			
-
-		</section>
-	</div>
-</footer>
-
 
 </body>
 </html>
