@@ -41,9 +41,10 @@
 			
 			<p>I write HTML, CSS and Javascript. You can see some of my work on my <a href="https://github.com/betron">Github</a> and <a href="http://codepen.io/betron/">Codepen</a> accounts.</p>
 			
-			Here are two games I've put together using <a href="http://phaser.io/">Phaser</a>:<br>
+			Here are a few games I've put together using <a href="http://phaser.io/">Phaser</a>:<br>
 			<a href="http://betron.github.io/BrendanTronconi/WarIsAForce.html">War is a Force</a><br>
-			<a href="http://betron.github.io/mlpo/ninja/index.html">Stump Jumper</a>
+			<a href="http://betron.github.io/mlpo/ninja/index.html">Stump Jumper</a><br>
+			<a href="http://betron.github.io/mlpo/hotpinklazers/index.html">Hot Pink Lazers"</a>
 		
  
 			
