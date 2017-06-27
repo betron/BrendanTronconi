@@ -15,6 +15,12 @@
 
 <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, user-scalable=1"/>
 
+<style>
+ a {
+ 	color: #999;
+ }
+
+</style>
 
 </head>
 <body>
