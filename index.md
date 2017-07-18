@@ -10,9 +10,6 @@
 <meta name="language" content="en"/>
 <meta name="description" content="Front End Web Developer, Brooklyn, New York, N.Y."/>
 
-
-<link rel="shortcut icon" href="http://brendantronconi.com/favicon.ico">
-
 <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, user-scalable=1"/>
 
 <style>
